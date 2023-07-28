@@ -1,0 +1,33 @@
+body{
+    color: #000000;
+}
+    
+header {
+    background-color:  #111c34;
+}
+
+header img{
+    width: 10%;
+    padding: 2%;
+}
+
+nav{
+    position: absolute; /*modifica el punto inicial*/ 
+    top: 0px;
+    right: 0px;
+}
+
+nav li{ 
+    display: inline;
+    margin: 0 0 0 20px; /*espaciamiento: arriba, derecha, abajo, izquierda*/ 
+}
+
+nav a{
+    text-transform: uppercase; /*texto en mayuscula*/ 
+    color: #64d952;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold; /*negrita*/  
+    font-size: 15px;
+    text-decoration: none;  /*retiramos el subrayado por defecto*/ 
+}
+
